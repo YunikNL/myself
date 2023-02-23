@@ -1,0 +1,78 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+h1, h2{color: rgb(252, 97, 0);}
+
+img{
+    width: 350px;
+    height: 550px;
+    border: 10px rgb(252, 97, 0);
+    border-radius: 18px;
+    border-style: inset; 
+}
+div{
+text-align: center;
+list-style-type: none;
+}
+li{
+    list-style-position: inside;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3399ff;
+    text-align: center;
+  }
+  .item {
+    display: inline;
+    list-style: none;
+  }
+  .item a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .item a:hover {
+    background-color: #a300cc;
+    color: white;
+  }
+  table{margin: auto;}
+  input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    width: 400px;
+    box-sizing: border-box;  
+    box-shadow: inset 2px 2px 2px rgb(3, 103, 137); 
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+footer{
+color: #3399ff;
+padding: 5px;
+}
+header{
+  padding: 5px;
+}
+#p1{
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+textarea{
+  height: 200px;
+}
+button:active{
+background-color: #a300cc;
+font-size: large;
+}
+
+  
